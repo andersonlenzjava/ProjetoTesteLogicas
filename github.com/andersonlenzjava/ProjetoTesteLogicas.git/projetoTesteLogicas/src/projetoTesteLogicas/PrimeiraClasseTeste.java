@@ -6,12 +6,14 @@ public class PrimeiraClasseTeste {
 
 	public static void main(String[] args) {
 
-	int nota1 = 90;
-	int nota2 = 80;
-	int nota3 = 85;
-	int nota4 = 88;
+	double nota1 = 90;
+	double nota2 = 80;
+	double nota3 = 85;
+	double nota4 = 88;
 	
-	System.out.println("A média das notas é igual a " + ((nota1 + nota2 + nota3 + nota4)/4));
+	double mediaFinal = ((nota1 + nota2 + nota3 + nota4)/4);
+	
+	System.out.println("A média das notas é igual a " + mediaFinal);
 		
 	}
 
