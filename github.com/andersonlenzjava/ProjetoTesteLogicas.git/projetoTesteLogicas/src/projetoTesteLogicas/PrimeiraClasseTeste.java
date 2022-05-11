@@ -1,19 +1,18 @@
 package projetoTesteLogicas;
 
 public class PrimeiraClasseTeste {
-	
+
 	static int variavelGlobalUm = 25;
-	
+
 	public static void main(String[] args) {
-		
+
+	int nota1 = 90;
+	int nota2 = 80;
+	int nota3 = 85;
+	int nota4 = 88;
 	
-	int maiorIdade = 18;
-	System.out.println("Valor variavel local = " + maiorIdade);
-	metodo2();
+	System.out.println("A média das notas é igual a " + ((nota1 + nota2 + nota3 + nota4)/4));
 		
 	}
 
-	public static void metodo2 () {
-		System.out.println("Valor da varável Global = " + variavelGlobalUm);
-	}
 }
