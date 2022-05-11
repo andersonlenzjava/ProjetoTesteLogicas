@@ -12,7 +12,10 @@ public class OperaçõesLogicasIF_Else {
 
 		double mediaAluno2 = Double.parseDouble(mediaAluno);
 		/* converte para int*/
-
+		int mediaAluno3 = Integer.parseInt(mediaAluno);
+		
+		System.out.println(mediaAluno3);
+		
 		if (mediaAluno2 >= 70 && nome.equals("Anderson")) {
 			System.out.println("Parabéns você está aprovado");
 
