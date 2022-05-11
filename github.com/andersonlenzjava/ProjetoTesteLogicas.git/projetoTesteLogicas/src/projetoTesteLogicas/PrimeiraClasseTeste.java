@@ -6,8 +6,10 @@ public class PrimeiraClasseTeste {
 	
 	public static void main(String[] args) {
 		
-		int maiorIdade = 18;
-		System.out.println("Valor variavel local = " + maiorIdade);
+	
+	int maiorIdade = 18;
+	System.out.println("Valor variavel local = " + maiorIdade);
+	metodo2();
 		
 	}
 
