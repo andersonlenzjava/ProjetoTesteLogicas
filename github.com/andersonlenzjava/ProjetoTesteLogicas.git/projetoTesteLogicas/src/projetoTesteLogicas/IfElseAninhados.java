@@ -11,24 +11,22 @@ public class IfElseAninhados {
 		String mediaAluno = JOptionPane.showInputDialog("Qual a média do aluno");
 
 		double mediaAluno2 = Double.parseDouble(mediaAluno);
-		/* converte para int */
-		int mediaAluno3 = Integer.parseInt(mediaAluno);
+		
+		System.out.println(mediaAluno2);
 
-		System.out.println(mediaAluno3);
-
-		if (mediaAluno3 >= 50) {
-			if (mediaAluno3 >= 70) {
-				if (mediaAluno3 > 90) {
-					System.out.println("Aluno está aprovado direto - Parabéns");
+		if (mediaAluno2 >= 50) {
+			if (mediaAluno2 >= 70) {
+				if (mediaAluno2 > 90) {
+					System.out.println("Aluno está aprovado direto - Parabéns. Nota = " + mediaAluno2);
 				} else {
-					System.out.println("Aluno aprovado direto");
+					System.out.println("Aluno aprovado direto. Nota = " + mediaAluno2);
 				}
 
 			} else {
-				System.out.println("Aluno em recuperação");
+				System.out.println("Aluno em recuperação. Nota = " + mediaAluno2);
 			}
 		} else {
-			System.out.println("Aluno reprovado direto");
+			System.out.println("Aluno reprovado direto. Nota = " + mediaAluno2);
 		}
 	}
 }
